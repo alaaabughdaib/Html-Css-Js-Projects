@@ -12,6 +12,8 @@ body {
     height: 100vh;
 }
 
+/* Header */
+
 .header {
     background-color: #ffdfd6cb;
     padding: 20px;
@@ -42,13 +44,33 @@ body {
     color: #fff;
 }
 
+
+/* Main */
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
     padding: 20px;
 }
 
+.content-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.blog-post h3 {
+    margin-top: 0;
+}
+
+
+
+
+
+/* Footer */
 .footer {
     background-color: #ffdfd6cb;
     color: #000;
@@ -58,65 +80,18 @@ body {
     padding: 10px;
 }
 
-.content-section {
-    display: none;
-}
-
-.content-section:target {
-    display: block;
-}
-
-
-
-  
-
-/* responsive design  */
-@media only screen and (max-width: 768px) {
-
+/* Responsive Styles */
+@media (max-width: 600px) {
     .header-nav-list {
         flex-direction: column;
         align-items: center;
     }
-    .header-nav-list li {
-        margin: 10px 0;
-    }
-    
-    .about-me h2 {
-        font-size: 14px;
-     }
-     .about-me h2 {
-        font-size: 12px;
-     }
-     
-     .about-me p {
-         font-size: 10px;
-         color: #333;
-     }
-
-     .education-content {
-        flex-direction: column;
+    .header-nav-list li a {
+        display: block;
+        width: 100%;
         text-align: center;
     }
-
-    .education-details {
-        margin: 20px auto;
-    }
-
-    .education-images {
-        margin-bottom: 20px;
-    }
-
-    .education-image {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .stacked-images {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+    .blog-post {
+        padding: 10px;
     }
 }
-
-
-

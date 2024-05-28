@@ -3,201 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ala'a's Personal Blog</title>
+    <title>Ala'a's Blog</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./Assets/images/Profile/profile-pic.jpeg" type="image/jpeg">
 </head>
 <body>
     <div class="container">
-
-
         <header class="header">
             <nav class="header-nav">
                 <ul class="header-nav-list">
-                    <li><a href="#overview">Overview</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experiences">Experiences</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#certificates">Certificates</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./Blog/blog.html#overview">Alaa's Blog</a></li>
                 </ul>
             </nav>
         </header>
 
-
-
         <main class="main">
-
-           
-            <!-- overview page -->
             <section id="overview" class="content-section">
-                <link rel="stylesheet" href="./Assets/Styles/education.css">
-                <div class="overview-content">
-                    <img src="./Assets/images//Profile/profile-pic.jpeg" alt="Ala'a Abu Ghdaib Profile Picture" class="profile-image">
-                    <div class="about-me">
-                        <h2>Ala'a Salah Abu Ghdaib</h2>
-                        <h4>Computer Egineer | Frontend Developer</h4>
-                        <p>I am a comuter engineer and a dedicated Front End Developer with a comprehensive skill set in web development technologies. With hands-on training and experience, I proficiently work with HTML, CSS, JavaScript, jQuery, Bootstrap, and modern libraries such as React and Redux. Additionally, I excel in managing data requests using Fetch API, Axios and Ajax . My goal is to leverage my expertise to create user-friendly and visually appealing interfaces that elevate digital experiences.</p>
-                        </div>
-                </div>
-            </section>
-
-
-            <!-- education page -->
-            <section id="education" class="content-section">
-                <link rel="stylesheet" href="./Assets/Styles/overview.css">
-                <div class="education-content">
-                    <div class="education-images">
-                        <img src="./Assets/images/collage/collage-img3.jpg" alt="An Najah National University" class="education-image">
-                        <div class="stacked-images">
-                            <img src="./Assets/images/collage/collage-img2.jpg" alt="An Najah National University" class="education-image education-image-behind">
-                            <img src="./Assets/images/collage/collage-img1.jpg" alt="An Najah National University" class="education-image education-image-behind">
-                        </div>
-                    </div>
-                    <div class="education-details">
-                        <h2>Education</h2>
-                        <p><strong>Bachelor's Degree - Computer Engineering</strong></p>
-                        <p>An Najah National University - Nablus</p>
-                    </div>
-                </div>
-            </section>
-
-
-            <!-- experiences page -->
-            <section id="experiences" class="content-section">
-                <div class="experience-entry">
-                    <div class="experience-header">
-                      <h3>Frontend Developer trainee</h3>
-                      <span>Feb 2024 - May 2024</span>
-                    </div>
-                    <div class="experience-location">
-                      <p>Orienteed, Nablus</p>
-                    </div>
-                    <div class="experience-details">
-                      <p>For four months, I had the opportunity to undergo intensive training with a forward-thinking company, where I honed my skills in HTML, CSS, and JavaScript, gaining proficiency in front-end web development. Additionally, I delved into advanced topics such as jQuery for enhanced interactivity, Ajax for asynchronous data retrieval, and Fetch and Axios for efficient API handling. I also gained expertise in Bootstrap for responsive and mobile-first design principles. Furthermore, I deepened my knowledge and practical experience in React JS, a powerful library for building dynamic and interactive user interfaces, and learned Redux for state management in complex applications. This training experience has equipped me with a comprehensive skill set in modern web development technologies, enabling me to contribute effectively to</p>
-                    </div>
-                  </div>
-                  <div class="experience-entry">
-                    <div class="experience-header">
-                      <h3>Meta Front End Developer Training</h3>
-                      <span>Oct 2023 - Mar 2024</span>
-                    </div>
-                    <div class="experience-location">
-                      <p>Meta</p>
-                    </div>
-                    <div class="experience-details">
-                      <p>Learned how to develop responsive web applications utilizing HTML, CSS, and JavaScript to create captivating user experiences. Gained expertise in ensuring flawless designs across various devices and browsers, optimizing performance, and seamlessly integrating APIs. Acquired proficiency in front-end frameworks like React and grasped essential design principles for effective user interface development. This course empowers me with the practical skills necessary for excelling in front-end development within today's digital landscape.</p>
-                    </div>
-                  </div>
-            </section>
-
-            
-           <!-- skills page -->
-            <section id="skills" class="content-section">
-                <link rel="stylesheet" href="./Assets/Styles/skills.css">
-                <h2>SKILLS</h2>
-                <ul class="skills-list">
-                    <li>Html/Css</li>
-                    <li>JavaScript</li>
-                    <li>JQuery</li>
-                    <li>SASS</li>
-                    <li>BootStrap</li>
-                    <li>Ajax</li>
-                    <li>Fetch</li>
-                    <li>Axios</li>
-                    <li>React Js</li>
-                    <li>Redux</li>
-                    <li>Responsive Design</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>React Native</li>
-                    <li>Networking</li>
-                </ul>
-            </section>
-
-            
-            <!-- projects page -->
-            <section id="projects" class="content-section">
-                <div class="project">
-                    <h2>Ayla Store – React JS</h2>
-                    <p>I spearheaded the development of Ayla Store, an E-Commerce mobile shop built using React JS with Redux integration. The platform offers seamless user authentication, utilizing a sign-in feature that verifies user information from a dummy JSON API. The home page showcases a curated selection of phone products retrieved dynamically from the API's phone category. Users can effortlessly search and explore products, with detailed product pages allowing for easy addition to the shopping cart.
-                    The shopping cart functionality is powered by Redux, ensuring smooth synchronization and management of user-selected items. A dedicated cart page provides users with a comprehensive overview of their selected items, with a streamlined checkout process facilitated by PayPal integration for secure payments. Additionally, the platform includes a sign-out button, enhancing user convenience and security. Ayla Store represents a sophisticated and user-centric E-Commerce solution, blending cutting-edge technology with intuitive design to deliver an unparalleled shopping experience.</p>
-                    <a href="https://drive.google.com/file/d/1r7GlJ7ZYzO53mmwVSRO2IMPFVnslXwy-/view?usp=sharing" target="_blank">Project Demo</a>
-                </div>
-                
-                <div class="project">
-                    <h2>Little Lemon Restaurant – React JS</h2>
-                    <p>The Little Lemon Restaurant Web Application is a user-friendly platform designed to enhance the dining experience by providing seamless interaction with the restaurant. Built with React.js, this responsive application adapts to all screen sizes, ensuring a smooth experience on any device.</p>
-                    <ul>
-                        <li>Displays customer testimonials fetched from an external API.</li>
-                        <li>Showcases the restaurant's special dishes.</li>
-                    </ul>
-                    <p>Technical Stack:</p>
-                    <ul>
-                        <li>Front-End: React.js</li>
-                        <li>Styling: Material-UI for a consistent and responsive design</li>
-                        <li>State Management: React Context API</li>
-                        <li>APIs: Integrated external APIs for dynamic content</li>
-                        <li>Routing: React Router for smooth navigation</li>
-                    </ul>
-                    <a href="https://drive.google.com/file/d/1jXucCQfEvMFwlMuxYytR8DToljEx8h8B/view?usp=sharing" target="_blank">Project Demo</a>
-                </div>
-                
-                <div class="project">
-                    <h2>ProgZone – Graduation Project – React JS & React Native</h2>
-                    <p>ProgZone is an all-inclusive online platform tailored for programming aficionados, catering to diverse user roles including admins, instructors, and students. Its intuitive interface facilitates seamless navigation, offering features like sign up, sign in, home, instructor profiles, course categories, and a comprehensive library of course videos. The integrated chat function fosters community interaction, while the real-time compiler enables hands-on coding practice. ProgZone ensures a personalized learning journey with certificates awarded upon course completion. Powered by a robust database backend, it efficiently manages user data for admins, instructors, and students, with Axios handling seamless data fetching. Additionally, we create ProgZone for mobile using React Native, ensuring that users can access all these features on the go, providing a consistent and responsive experience across both web and mobile platforms.</p>
-                </div>
-                
-                <div class="project">
-                    <h2>Fox University</h2>
-                    <p>Fox University is a dynamic and modern website project designed using Bootstrap, showcasing a responsive design that ensures seamless usability across various devices. As a key team member, I contributed to developing and enhancing the website's user interface, incorporating Bootstrap's versatile components and grid system to create a visually appealing and user-friendly experience. The project involved implementing responsive design principles to optimize the site's functionality and accessibility on desktops, tablets, and mobile devices, ensuring a consistent and enjoyable browsing experience for users.</p>
-                </div>
-            </section>
-
-
-            <!--certificates page-->
-            <section id="certificates" class="content-section">
-                <link rel="stylesheet" href="./Assets/Styles/certificates.css">
-                <div class="certificate">
-                    <h3>Meta Front End Developer - Meta - 2024</h3>
-                    <a href="https://coursera.org/share/ef3ac36e197a68707face13c3ded5150" target="_blank">View Certificate</a>
-                </div>
-                <div class="certificate">
-                    <h3>React.js Essential Training - LinkedIn - 2024</h3>
-                    <a href="https://www.linkedin.com/learning/certificates/e1e3491f68b59e70a586cd9a35d6e95637468ba5416d0c286377d5094a2a923e" target="_blank">View Certificate</a>
-                </div>
-            </section>
-
-
-            <!-- contact page -->
-            <section id="contact" class="content-section">
-                <link rel="stylesheet" href="./Assets/Styles/contact.css">
-                <div class="contact-container">
-                    <div class="contact-item">
-                      <strong>Location:</strong> Nablus
-                    </div>
-                    <div class="contact-item">
-                      <strong>Phone:</strong> 0595119475
-                    </div>
-                    <div class="contact-item">
-                      <strong>Email:</strong> <a href="mailto:alaaabughdaib11@gmail.com">alaaabughdaib11@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alaaabughdaib/" target="_blank">https://www.linkedin.com/in/alaaabughdaib/</a>
-                    </div>
-                    <div class="contact-item">
-                      <strong>GitHub:</strong> <a href="https://github.com/alaaabughdaib" target="_blank">https://github.com/alaaabughdaib</a>
-                    </div>
-                  </div>
+                <h2>Blog Overview</h2>
+                <article class="blog-post">
+                    <h3>My Journey in Frontend Development</h3>
+                    <p>My journey in frontend development began as a curious exploration into the world of web technologies. Initially drawn by the allure of creating visually appealing and interactive websites, I immersed myself in learning HTML, CSS, and JavaScript. These foundational skills opened the door to a vast landscape of possibilities, leading me to explore frameworks like React and libraries like jQuery. Each project and challenge helped me grow, from building simple static pages to developing complex, dynamic web applications. Along the way, I honed my skills in responsive design, ensuring that my creations were accessible and user-friendly across all devices. This journey has been one of constant learning and adaptation, fueled by a passion for innovation and a desire to craft seamless digital experiences. Today, I continue to evolve as a frontend developer, driven by the endless opportunities to create, innovate, and inspire through code.</p>
+                </article>
+                <article class="blog-post">
+                    <h3>Learn More About Me</h3>
+                    <p>To delve deeper into my journey and experiences as a frontend developer, click on the Blog section where I share detailed insights and stories about my professional path. You'll find posts that cover various aspects of my career, from the challenges I've overcome to the milestones I've achieved. Whether it's discussing the latest technologies I'm working with or sharing tips and tricks for aspiring developers, my blog is a place for you to get to know me better. Explore my blog to learn more about the passion and dedication that drive my work every day.</p>
+                </article>
             </section>
         </main>
 
-
-
-
         <footer class="footer">
-           <p>Personal Blog For Ala'a Salah Abu Ghdaib</p>
+            <p>Personal Blog For Ala'a Salah Abu Ghdaib</p>
         </footer>
     </div>
 </body>
