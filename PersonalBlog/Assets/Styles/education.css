@@ -1,0 +1,64 @@
+
+/* education style */
+.education-content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+   
+}
+
+.education-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.education-image {
+    width: 300px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.stacked-images {
+    position: relative;
+    width: 150px; 
+    height: 300px; 
+}
+
+.education-image-behind {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.education-image-behind:first-child {
+    top: 0;
+    width: 200px;
+}
+
+.education-image-behind:last-child {
+    top: 150px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.education-details {
+    max-width: 600px;
+    margin-left: 80px;
+}
+
+.education-details h2 {
+    margin-bottom: 30px;
+}
+
+.education-details p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
