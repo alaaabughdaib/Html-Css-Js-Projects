@@ -1,0 +1,23 @@
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .header-nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-nav-list li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .blog-post {
+        padding: 10px;
+    }
+    .post-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .post-content img {
+        margin-bottom: 10px;
+    }
+  
+}

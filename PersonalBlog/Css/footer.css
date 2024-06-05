@@ -1,0 +1,12 @@
+/* Footer */
+.footer {
+    background-color: #ffdfd6cb;
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

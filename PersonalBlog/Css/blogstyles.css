@@ -1,0 +1,28 @@
+/* body */
+@import url('./main.css');
+
+/* Header */
+@import url('./header.css');
+
+/* Main */
+@import url('./main.css');
+
+/* Footer */
+@import url('./footer.css');
+
+/* responsive design  */
+@import url('./blogresponsive.css');
+
+
+.content-section {
+    display: none;
+}
+
+.content-section:target {
+    display: block;
+}
+
+
+
+  
+

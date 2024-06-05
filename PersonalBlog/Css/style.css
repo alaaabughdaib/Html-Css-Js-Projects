@@ -1,0 +1,41 @@
+/* body */
+@import url('./common.css');
+
+/* Header */
+@import url('./header.css');
+
+/* Main */
+@import url('./main.css');
+
+/* Footer */
+@import url('./footer.css');
+
+/* Responsive Styles */
+@import url('./responsive.css');
+
+
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+
+.contacts-url {
+    background: none !important;
+    color: burlywood !important;
+}
+
+.contacts-url img {
+    width: 100px;
+    height: 100px; 
+}
+
+
+
+
+
+
+
+
